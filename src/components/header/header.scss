@@ -1,0 +1,79 @@
+@import "../../styles/style.scss";
+
+.header-container {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid $lightgray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.main-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+  width: 10%;
+}
+.main-logo-icon {
+  height: 50px;
+  margin-right: 10px;
+}
+.main-logo-name {
+  height: 25px;
+}
+
+.header-left-navlink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 25%;
+
+  .nav-link {
+    color: $darkblue;
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    color: $lightblue1;
+  }
+}
+
+.search-bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40%;
+}
+
+.login {
+  padding: 5px 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid $lightgray;
+  border-radius: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.signup {
+  padding: 5px 20px;
+  background-color: $lightblue1;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.signup:hover {
+  background-color: $lightblue2;
+}

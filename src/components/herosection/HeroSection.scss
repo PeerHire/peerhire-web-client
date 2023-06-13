@@ -1,0 +1,65 @@
+@import "..//..//styles/style.scss";
+
+.hero-section {
+    background-color: #fcfcfc;
+    padding: 121px 0;  
+    .hero-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+  
+      .hero-text {
+        flex: 1;
+        max-width: 600px;
+        padding-right: 40px;
+  
+        .hero-title {
+          font-size: 80px;
+          font-weight: bold;
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          color: $darkblue;
+          margin-bottom: 20px;
+        }
+  
+        .hero-description {
+          font-size: 18px;
+          color: #777;
+          margin-bottom: 40px;
+        }
+  
+        .btn-hero {
+          display: inline-block;
+          padding: 8px 24px;
+          font-size: 16px;
+          font-weight: bold;
+          text-decoration: none;
+          color: #fff;
+          background-color: $lightblue1;
+          border-radius: 20px;
+          transition: background-color 0.3s ease;
+  
+          &:hover {
+            background-color: #1a4ee8;
+          }
+        }
+      }
+  
+      .hero-image {
+        flex: 1;
+        max-width: 600px;
+        display: flex;
+        justify-content: center;
+
+        img {
+          max-width: 100%;
+          height: 300px;
+          border-radius: 8px;
+        //   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+  

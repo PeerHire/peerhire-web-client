@@ -1,0 +1,44 @@
+@import "../../styles/style.scss";
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-right: 3px;
+    gap: 5px;
+    border: 1px solid #ccc;
+    height: 40px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #fff !important;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    height: 25px;
+    border: none;
+    outline: none;
+    //border-radius: 20px;
+    border-right: 1px solid #ccc;
+    flex-grow: 1;
+  }
+  
+  .search-bar select {
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+  }
+  
+  .search-bar button {
+    padding: 5px 20px;
+    background-color: $lightblue1;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: $lightblue2;
+  }
+  

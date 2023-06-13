@@ -1,0 +1,44 @@
+@import "..//..//styles/style.scss";
+
+.faqs {
+  padding: 75px;
+   
+  &__title {
+    text-align: center;
+    font-size: 30px;
+    color: $darkblue;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    display: grid;
+    gap: 10px;
+
+    &::before {
+      // content: '';
+      width: 1px;
+      height: 100%;
+      background-color: #ccc;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__item {
+    border-radius: 6px;
+  }
+
+  &__question {
+    font-size: 18px;
+ 
+    color: $lightblue1;
+    margin-bottom: 10px;
+  }
+
+  &__answer {
+    color: #555;
+  }
+}

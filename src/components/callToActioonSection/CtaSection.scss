@@ -1,0 +1,116 @@
+@import "..//..//styles/style.scss";
+
+.cta-section {
+    padding: 80px 0;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+  
+    .cta-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  
+      .cta-text {
+        flex: 1;
+        padding-right: 40px;
+  
+        .cta-title {
+          font-size: 32px;
+          font-weight: bold;
+          color: $darkblue;
+          margin-bottom: 40px;
+        }
+  
+        .cta-description {
+          display: flex;
+          flex-direction: column;
+  
+          .cta-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+  
+            .cta-item-icon {
+              flex: 0 0 30px;
+              display: flex;
+              align-items: center;
+  
+              .cta-icon{
+                font-size: 36px;
+              }
+            }
+  
+            .cta-item-content {
+              flex: 1;
+              padding-left: 20px;
+  
+              .cta-item-title {
+                font-size: 20px;
+              
+                color: #333;
+                margin-bottom: 10px;
+              }
+  
+              .cta-item-description {
+                font-size: 14px;
+                color: #777;
+              }
+            }
+          }
+        }
+  
+        .cta-btn-container{
+           display: flex;
+           justify-content: space-evenly;
+        }
+
+        .cta-button {
+          background-color: $lightblue1;
+          color: #fff;
+          font-size: 16px;
+          font-weight: bold;
+          border: none;
+          border-radius: 20px;
+          padding: 4px 30px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+  
+          &:hover {
+            background-color: #1e4fe6;
+          }
+        }
+
+        .cta-hollow-button{
+            background-color: transparent;
+            color: $lightblue1;
+            font-size: 16px;
+            font-weight: bold;
+            border: 2px solid $lightblue1;
+            border-radius: 20px;
+            padding: 4px 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+    
+            &:hover {
+              background-color: #fdfbfb;
+            }
+        }
+      }
+  
+      .cta-image {
+        flex: 1;
+        text-align: center;
+  
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+  

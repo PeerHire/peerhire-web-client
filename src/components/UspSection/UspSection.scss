@@ -1,0 +1,49 @@
+@import "..//..//styles/style.scss";
+
+.usp-section {
+    padding: 30px 0;
+    background: linear-gradient(to right, $lightblue3, $lightblue1, $lightblue2);
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+  
+    .usp-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  
+  
+      .usp-item {
+        flex: 1 1 300px;
+        text-align: center;
+        padding: 40px;
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+  
+        .usp-icon{
+            font-size: 48px;
+            color: $lightblue1;
+            margin-bottom: 20px;
+          }
+  
+        .usp-title {
+          font-size: 24px;
+          font-weight: bold;
+          color: $darkblue;
+          margin-bottom: 10px;
+        }
+  
+        .usp-description {
+          font-size: 16px;
+          color: #777;
+        }
+      }
+    }
+  }
+  
