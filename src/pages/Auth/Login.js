@@ -10,9 +10,29 @@ import {
   TextField,
 } from "@mui/material";
 import { NavLink } from "react-router-dom";
+import { login } from "../../redux/action/authActions";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
-const Login = () => {
-  console.log("Login");
+const Login = ({ setOpen }) => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+
+  const { user, isAuthenticated } = useSelector((state) => state.user);
+
+  const userData = {
+    name: "sumit nirmal",
+  };
+
+  const submitLogin = () => {
+    setOpen(false);
+    console.log("Login");
+    dispatch(login(userData));
+    navigate("./find-work")
+    console.log(user)
+    console.log(isAuthenticated)
+  };
+
   return (
     <div>
       <div className="login-top-component">
@@ -51,11 +71,21 @@ const Login = () => {
           <span className="forget-password">Forget Password</span>
         </div>
 
-        <button className="sign-in-btn">Sign In</button>
+        <button
+          className="sign-in-btn"
+          onClick={() => {
+            submitLogin();
+          }}
+        >
+          Sign In
+        </button>
 
         <div className="create-account-component">
           <span>
-            Don't have an account?<a href="./signup" className="create-account">Create account</a>
+            Don't have an account?
+            <a href="./signup" className="create-account">
+              Create account
+            </a>
           </span>
         </div>
       </div>
