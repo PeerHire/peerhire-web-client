@@ -3,7 +3,8 @@ import JobCard from "./JobCard";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 import "./FindWork.scss";
-import { FaSearch } from "react-icons/fa";
+import { FaPen, FaSearch } from "react-icons/fa";
+import ProfilePicture from "..//../assets/image/sumit.jpeg";
 
 const jobs = [
   {
@@ -88,6 +89,20 @@ const savedJobs = [
 const FindWork = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
+  // Replace the dummy data with your actual data
+  const name = "Sumit Nirmal";
+  const title = "MERN Full Stack Developer";
+  const rollNumber = "20CE10075";
+  const profileCompletePercentage = 75;
+  const profileVisibility = "Public";
+  const categories = [
+    "Ecommerce Development",
+    "Web & Mobile Design",
+    "Blockchain, NFT & Cryptocurrency",
+    "Mobile Development",
+    "Web Development",
+  ];
+
   const [activeTab, setActiveTab] = useState("best-matches");
 
   const handleTabChange = (tab) => {
@@ -168,6 +183,52 @@ const FindWork = () => {
             )}
             {activeTab === "saved-jobs" &&
               savedJobs.map((job) => <JobCard key={job.id} job={job} />)}
+          </div>
+        </div>
+        <div className="right-section">
+          <div className="profile">
+            <img
+              src={ProfilePicture}
+              alt="Profile"
+              className="profile-picture"
+            />
+            <div className="profile-details">
+              <p className="name">
+                {name} ({rollNumber})
+              </p>
+              <span className="title">{title}</span>
+            </div>
+          </div>
+          <div className="progress-bar-container">
+            <span>Profile Completeness: {profileCompletePercentage}%</span>
+            <div className="progress-bar">
+              <div
+                className="progress"
+                style={{ width: `${profileCompletePercentage}%` }}
+              ></div>
+            </div>
+          </div>
+          <div className="profile-visibility-container">
+            <div>
+              <span className="profile-visibility">Profile Visibility:</span>
+              <span className="status">{profileVisibility}</span>
+            </div>
+            <button>
+              <FaPen />
+            </button>
+          </div>
+          <div className="my-categories">
+            <div>
+              <h3>My Categories</h3>
+              <button>
+                <FaPen />
+              </button>
+            </div>
+            <ul>
+              {categories.map((category) => (
+                <li key={category}>{category}</li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

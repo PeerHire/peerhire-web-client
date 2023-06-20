@@ -3,216 +3,359 @@
   margin-top: 71px;
   min-height: 360px;
   padding-left: 60px;
-}
+  display: flex;
+  justify-content: space-around;
+  //-------------------post a project section---------------------
 
-//-------------------post a project section---------------------
+  .find-work-page {
+    padding: 20px;
+    width: 70%;
 
-.find-work-page {
-  padding: 20px;
-  width: 70%;
+    .job-search-bar {
+      margin-bottom: 20px;
+      border-radius: 12px;
+      margin-left: 20px;
+      margin-right: 20px;
+      border: 1px solid $lightgray;
+      display: flex;
+      align-items: center;
+      input {
+        width: 97%;
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        font-size: 16px;
+        color: #333;
 
-  .job-search-bar {
-    margin-bottom: 20px;
-    border-radius: 12px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 1px solid $lightgray;
-    display: flex;
-    align-items: center;
-    input {
-      width: 97%;
-      padding: 10px;
-      border: none;
-      background-color: transparent;
-      font-size: 16px;
-      color: #333;
-      
-      &:focus {
-        outline: none;
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        border: none;
+        background-color: $lightblue1;
+        margin: 0;
+        height: 44px;
+        width: 43px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        svg {
+          color: white;
+          font-size: 22px;
+        }
       }
     }
-    button{
-      border: none;
-      background-color: $lightblue1;
-      margin: 0;
-      height: 43px;
-      width: 43px;
-      border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
-      svg{
-        color: white;
-        font-size: 22px;
+
+    .job-cards {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid $lightgray;
+      margin: 20px;
+      padding-bottom: 20px;
+      border-radius: 20px;
+
+      .job-cards-container-header {
+        padding: 30px;
+
+        h3 {
+          font-size: 24px;
+          color: $darkblue;
+        }
+      }
+
+      .job-cards-tab-button {
+        padding-left: 40px;
+
+        button {
+          border: none;
+          background-color: transparent;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 10px 20px;
+          color: #626262;
+        }
+
+        .job-cards-tab-active {
+          background-color: transparent;
+          font-size: 18px;
+          font-weight: 500;
+          border-bottom: 3px solid $lightblue1;
+          color: black;
+        }
+      }
+
+      .job-card {
+        padding: 20px;
+        background-color: #fff;
+        border-top: 1px solid $lightgray;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-left: 5px solid transparent;
+
+        .job-title-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        h3 {
+          margin-bottom: 10px;
+          font-size: 20px;
+          color: #333;
+        }
+
+        .info {
+          display: flex;
+          margin-top: 10px;
+          margin-bottom: 15px;
+          color: #666;
+
+          span {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            margin-right: 30px;
+
+            svg {
+              margin-right: 8px;
+              font-size: 22px;
+            }
+          }
+        }
+
+        .job-description {
+          margin-bottom: 10px;
+          font-size: 17px;
+          color: #222;
+          p {
+            max-height: 80px;
+            overflow: hidden;
+            margin-bottom: 0;
+
+            &.expanded {
+              max-height: none;
+            }
+          }
+
+          .toggle-description-btn {
+            color: $lightblue1;
+            cursor: pointer;
+            border: none;
+            margin-left: 0;
+            padding-left: 0;
+            background-color: transparent;
+            transition: color 0.3s ease;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+
+        .tags {
+          display: flex;
+          flex-wrap: wrap;
+
+          span {
+            padding: 5px 10px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            background-color: $lightgray;
+            font-weight: 500;
+            border-radius: 20px;
+            font-size: 14px;
+            color: #333;
+          }
+        }
+
+        .client-info {
+          margin-top: 20px;
+          font-size: 18px;
+          color: #666;
+          display: flex;
+          justify-content: space-between;
+
+          span {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            font-size: 18px;
+            svg {
+              margin-right: 5px;
+              font-size: 24px;
+            }
+          }
+        }
+
+        &:hover {
+          background-color: $lightblue3;
+          border-left: 5px solid $lightblue1;
+          cursor: pointer;
+
+          h3 {
+            color: $lightblue1;
+            text-decoration: underline;
+          }
+          .save-jobs-button {
+            background-color: white;
+          }
+        }
+
+        .save-jobs-button {
+          height: 38px;
+          width: 38px;
+          display: flex;
+          border-radius: 40px;
+          justify-content: center;
+          align-items: center;
+          border: 3px solid #e2e2e2;
+
+          .save-jobs-icon {
+            color: $lightblue1;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 18px;
+          }
+
+          &:hover {
+            background-color: #f2f7f2;
+          }
+        }
+      }
+
+      .load-more-job {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+          border: 3px solid $lightblue1;
+          border-radius: 20px;
+          color: $lightblue1;
+          font-size: 16px;
+          font-weight: 500;
+          padding: 1px 10px;
+          background-color: transparent;
+
+          &:hover {
+            background-color: #f6f6f6;
+          }
+        }
       }
     }
   }
 
-  .job-cards {
+  .right-section {
+    background-color: transparent;
+    margin: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid $lightgray;
     display: flex;
     flex-direction: column;
-    border: 1px solid $lightgray;
-    margin: 20px;
-    padding-bottom: 20px;
-    border-radius: 20px;
+    width: 300px;
+    height: 800px;
 
-    .job-cards-container-header {
-      padding: 30px;
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
 
-      h3 {
-        font-size: 24px;
-        color: $darkblue;
+      .profile-picture {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 15px;
       }
     }
 
-    .job-cards-tab-button {
-      padding-left: 40px;
+    .profile-details {
+      .name {
+        margin-bottom: 5px;
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        color: $darkblue;
+        text-decoration: underline;
+
+        &:hover {
+          color: $lightblue1;
+        }
+      }
+
+      .title {
+        font-size: 18px;
+      }
+    }
+
+    .progress-bar-container {
+      width: 100%;
+      margin-top: 10px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+      background-color: #f8f5f5;
+
+      span {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+
+      .progress-bar {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        border-radius: 5px;
+        overflow: hidden;
+
+        .progress {
+          height: 100%;
+          background-color: $lightblue1;
+          transition: width 0.3s ease-in-out;
+        }
+      }
+    }
+
+    .profile-visibility-container {
+      display: flex;
+      align-items: center;
+      padding: 40px 20px;
+      justify-content: space-between;
+      border-bottom: 1px solid $lightgray;
+
+      div {
+        display: flex;
+        flex-direction: column;
+
+        .profile-visibility {
+          font-size: 17px;
+          font-weight: 500;
+        }
+
+        .status {
+          font-size: 17px;
+        }
+      }
 
       button {
-        border: none;
-        background-color: transparent;
-        font-size: 18px;
-        font-weight: 500;
-        padding: 10px 20px;
-        color: #626262;
-      }
-
-      .job-cards-tab-active {
-        background-color: transparent;
-        font-size: 18px;
-        font-weight: 500;
-        border-bottom: 3px solid $lightblue1;
-        color: black;
-      }
-    }
-
-    .job-card {
-      padding: 20px;
-      background-color: #fff;
-      border-top: 1px solid $lightgray;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      border-left: 5px solid transparent;
-
-      .job-title-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      h3 {
-        margin-bottom: 10px;
-        font-size: 20px;
-        color: #333;
-      }
-
-      .info {
-        display: flex;
-        margin-top: 10px;
-        margin-bottom: 15px;
-        color: #666;
-
-        span {
-          display: flex;
-          align-items: center;
-          font-size: 18px;
-          margin-right: 30px;
-
-          svg {
-            margin-right: 8px;
-            font-size: 22px;
-          }
-        }
-      }
-
-      .job-description {
-        margin-bottom: 10px;
-        font-size: 17px;
-        color: #222;
-        p {
-          max-height: 80px;
-          overflow: hidden;
-          margin-bottom: 0;
-
-          &.expanded {
-            max-height: none;
-          }
-        }
-
-        .toggle-description-btn {
-          color: $lightblue1;
-          cursor: pointer;
-          border: none;
-          margin-left: 0;
-          padding-left: 0;
-          background-color: transparent;
-          transition: color 0.3s ease;
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-
-      .tags {
-        display: flex;
-        flex-wrap: wrap;
-
-        span {
-          padding: 5px 10px;
-          margin-right: 5px;
-          margin-bottom: 5px;
-          background-color: $lightgray;
-          font-weight: 500;
-          border-radius: 20px;
-          font-size: 14px;
-          color: #333;
-        }
-      }
-
-      .client-info {
-        margin-top: 20px;
-        font-size: 18px;
-        color: #666;
-        display: flex;
-        justify-content: space-between;
-
-        span {
-          display: flex;
-          align-items: center;
-          margin-bottom: 5px;
-          font-size: 18px;
-          svg {
-            margin-right: 5px;
-            font-size: 24px;
-          }
-        }
-      }
-
-      &:hover {
-        background-color: $lightblue3;
-        border-left: 5px solid $lightblue1;
-        cursor: pointer;
-
-        h3 {
-          color: $lightblue1;
-          text-decoration: underline;
-        }
-        .save-jobs-button {
-          background-color: white;
-        }
-      }
-
-      .save-jobs-button {
-        height: 38px;
-        width: 38px;
+        height: 35px;
+        width: 35px;
         display: flex;
         border-radius: 40px;
         justify-content: center;
         align-items: center;
         border: 3px solid #e2e2e2;
+        background-color: transparent;
+        color: $lightblue1;
 
-        .save-jobs-icon {
+        .svg {
           color: $lightblue1;
           font-weight: bold;
-          cursor: pointer;
           font-size: 18px;
         }
 
@@ -222,23 +365,56 @@
       }
     }
 
-    .load-more-job{
+    .my-categories {
       padding: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
 
-      button{
-        border: 3px solid $lightblue1;
-        border-radius: 20px;
-        color: $lightblue1;
-        font-size: 16px;
-        font-weight: 500;
-        padding: 1px 10px;
-        background-color: transparent;
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-        &:hover{
-          background-color: #f6f6f6;
+        h3 {
+          margin-bottom: 10px;
+          font-size: 17px;
+          font-weight: 500;
+        }
+
+        button {
+          height: 35px;
+          width: 35px;
+          display: flex;
+          border-radius: 40px;
+          justify-content: center;
+          align-items: center;
+          border: 3px solid #e2e2e2;
+          background-color: transparent;
+          color: $lightblue1;
+
+          .svg {
+            color: $lightblue1;
+            font-weight: bold;
+            font-size: 18px;
+          }
+
+          &:hover {
+            background-color: #f2f7f2;
+          }
+        }
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        li {
+          margin-bottom: 5px;
+          font-size: 17px;
+          font-weight: 500;
+          color: $lightblue1;
+          cursor: pointer;
+
+          &:hover{
+            text-decoration: underline;
+          }
         }
       }
     }
