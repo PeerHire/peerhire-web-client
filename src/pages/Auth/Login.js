@@ -28,9 +28,9 @@ const Login = ({ setOpen }) => {
     setOpen(false);
     console.log("Login");
     dispatch(login(userData));
-    navigate("./find-work")
-    console.log(user)
-    console.log(isAuthenticated)
+    navigate("./find-work");
+    console.log(user);
+    console.log(isAuthenticated);
   };
 
   return (

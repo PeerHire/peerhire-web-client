@@ -80,11 +80,36 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <NavLink className="nav-link" to="/my-jobs">
-              My Jobs
-            </NavLink>
-            <NavLink className="nav-link" to="/masseges">
-              Masseges
+
+            <div class="dropdown">
+              <button
+                className="nav-link dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Jobs
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <NavLink to="/create-project" className="dropdown-item">
+                    Post a Job
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/my-jobs" className="dropdown-item">
+                    My jobs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/all-job-posts" className="dropdown-item">
+                    All Job posts
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+            <NavLink className="nav-link" to="/messages">
+            Messages
             </NavLink>
           </div>
           {/*------------- search bar--------------------- */}
