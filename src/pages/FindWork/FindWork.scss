@@ -4,7 +4,7 @@
   min-height: 360px;
   padding-left: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   //-------------------post a project section---------------------
 
   .find-work-page {
@@ -52,6 +52,7 @@
       border: 1px solid $lightgray;
       margin: 20px;
       padding-bottom: 20px;
+      padding-top: 20px;
       border-radius: 20px;
 
       .job-cards-container-header {
@@ -245,7 +246,7 @@
     }
   }
 
-  .right-section {
+  .left-profile-section {
     background-color: transparent;
     margin: 20px;
     padding-top: 20px;
@@ -412,10 +413,103 @@
           color: $lightblue1;
           cursor: pointer;
 
-          &:hover{
+          &:hover {
             text-decoration: underline;
           }
         }
+      }
+    }
+  }
+
+  .filter-section {
+    width: 20%;
+    padding-top: 20px;
+    height: 500px;
+
+    .filter-section-heading {
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 32px;
+      font-family: sans-serif;
+    }
+    div {
+      .categories-filter {
+        margin-top: 30px;
+        span {
+          font-size: 17px;
+          font-weight: 500;
+          font-family: sans-serif;
+        }
+        div {
+          padding-top: 10px;
+        }
+      }
+
+      .project-type {
+        margin-top: 30px;
+        span {
+          font-size: 17px;
+          font-weight: 500;
+          font-family: sans-serif;
+        }
+        div {
+          padding-top: 10px;
+          label {
+            font-size: 16px;
+            input[type="checkbox"] {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+
+      .budget-filter {
+        margin-top: 30px;
+        span {
+          font-size: 17px;
+          font-weight: 500;
+          font-family: sans-serif;
+        }
+        div {
+          padding-top: 5px;
+        }
+      }
+    }
+  }
+}
+
+// find work search result stylingheet
+.sorting-header {
+  display: flex;
+  flex-direction: column;
+
+  .search-result-heading {
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 20px;
+  }
+
+  div {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 7px 20px;
+    margin-top: 15px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .sort-by {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 0px !important;
+
+      span {
+        margin-right: 10px;
+      }
+      .dropdown {
+        width: 50px;
       }
     }
   }

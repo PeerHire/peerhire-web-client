@@ -1,0 +1,43 @@
+@import "../../styles/style.scss";
+/* pagination.css */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination a {
+    color: $lightblue1;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: $lightblue3;
+
+  }
+  
+  .pagination a:hover {
+    background-color: #ebebeb;
+  }
+  
+  .pagination .active a {
+    background-color: $lightblue1;
+    color: #fff;
+  }
+  
+  .pagination .previous,
+  .pagination .next {
+    font-weight: bold;
+  }
+  
+  .pagination .disabled a {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  

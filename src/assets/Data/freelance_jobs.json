@@ -1,0 +1,3462 @@
+[
+  {
+    "job": "Web Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Mobile App Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Front-end Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Back-end Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Full-stack Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "WordPress Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Shopify Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "E-commerce Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "UI/UX Design",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Graphic Design",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Logo Design",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Illustration",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "3D Modeling",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Game Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "AR/VR Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Database Administration",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "API Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Software Testing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Quality Assurance",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "DevOps",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Cloud Computing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Analysis",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Machine Learning",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Artificial Intelligence",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Blockchain Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Cybersecurity",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Network Administration",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "System Administration",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "IT Support",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Technical Writing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Content Writing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Copywriting",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Blogging",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "SEO",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Social Media Marketing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Digital Marketing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Email Marketing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Affiliate Marketing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Entry",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Virtual Assistance",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Project Management",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "IT Consulting",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "IT Training",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Audio/Video Editing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Photography",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Voiceover",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Translation",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Transcription",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Proofreading",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Mining",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Visualization",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Web Scraping",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Chatbot Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Internet of Things (IoT)",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Web Analytics",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "IT Strategy",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Technical Support",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Scripting & Automation",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Desktop Application Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Game Testing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Database Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "API Integration",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Web Hosting",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "IT Infrastructure Setup",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Migration",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Server Administration",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Software Installation",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Wireframing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Responsive Design",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "User Research",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Usability Testing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Cleansing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Warehousing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "IT Compliance",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Web Security",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Mobile App Testing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Payment Gateway Integration",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "CRM Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "ERP Development",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Science",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Engineering",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Shell Scripting",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Cloud Infrastructure Management",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Modeling",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Web Accessibility",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Version Control",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Containerization",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Big Data Analytics",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Natural Language Processing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Computer Vision",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Network Security",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Digital Forensics",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "UI/UX Testing",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Game Design",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Motion Graphics",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Social Media Management",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Lead Generation",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Market Research",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Data Analysis and Reporting",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Inventory Management System",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Network Design",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "IT Project Planning",
+    "job_domain": "Development & IT"
+  },
+  {
+    "job": "Machine Learning Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Data Scientist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Artificial Intelligence Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Natural Language Processing (NLP) Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Computer Vision Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Deep Learning Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Consultant",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Chatbot Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Reinforcement Learning Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Predictive Analytics Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Data Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Data Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Image Recognition Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Speech Recognition Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Recommendation System Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Data Mining Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Cognitive Computing Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Researcher",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Big Data Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Neural Network Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Data Visualization Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Project Manager",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Pattern Recognition Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Ethics Consultant",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Virtual Assistant Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Trainer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Data Labeling Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Text Analytics Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Chatbot Trainer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Sentiment Analysis Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Model Validator",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Machine Learning Operations (MLOps) Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI System Architect",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Biometrics Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Genetic Algorithms Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Data Scientist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Speech Synthesis Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Conversational AI Designer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Computer Graphics Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Optical Character Recognition (OCR) Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Emotion Recognition Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Automated Planning Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Data Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Knowledge Graph Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Fraud Detection Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Robotics Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Product Manager",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Language Model Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Trainer Coordinator",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Technical Writer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Business Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Predictive Maintenance Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Systems Integration Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Software Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Quality Assurance Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI User Experience Designer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Algorithm Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Hardware Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Cloud Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Operations Manager",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Sales Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Healthcare Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Financial Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Education Consultant",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Marketing Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Cybersecurity Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Data Privacy Consultant",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Supply Chain Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Energy Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Agriculture Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Transportation Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Retail Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Gaming Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Social Media Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Music Composer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Video Editor",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Sports Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Fashion Stylist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Interior Designer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Travel Planner",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Customer Service Representative",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Virtual Reality Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Augmented Reality Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Robotics Process Automation Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Insurance Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Legal Consultant",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Human Resources Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Project Coordinator",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Voiceover Artist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Data Governance Specialist",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Biomedical Engineer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Pharmaceutical Researcher",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Supply Chain Manager",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Retail Manager",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Marketing Manager",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Gaming Tester",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI User Interface Designer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Geospatial Analyst",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Event Planner",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Social Media Manager",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Health Coach",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Language Translator",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI HR Chatbot Developer",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "AI Financial Advisor",
+    "job_domain": "AI Services"
+  },
+  {
+    "job": "Graphic Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Web Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "UI/UX Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Logo Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Illustrator",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Motion Graphics Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Brand Identity Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Packaging Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Print Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Product Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Digital Artist",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Brochure Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Banner Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Infographic Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "T-Shirt Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Poster Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Social Media Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Icon Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Photo Editor",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Video Editor",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Animation Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "3D Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Game Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "User Experience Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "User Interface Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "App Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Book Cover Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Typography Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Visual Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Presentation Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Responsive Web Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "E-book Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Magazine Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Newsletter Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Storyboard Artist",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Character Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Album Cover Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Invitation Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Menu Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Catalog Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Advertisement Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Website Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Front-end Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Back-end Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "WordPress Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Shopify Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "E-commerce Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Mobile App Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Game Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "AR/VR Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Full Stack Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "PHP Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "JavaScript Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "React Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Angular Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Vue.js Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Node.js Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Python Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Ruby Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Java Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "C# Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "C++ Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "iOS Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Android Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Unity Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Database Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "API Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Plugin Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Theme Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "CMS Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Landing Page Developer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "SEO Specialist",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Digital Marketer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Social Media Manager",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Content Writer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Copywriter",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Proofreader",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Translator",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "SEO Writer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Blogger",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Technical Writer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Ghostwriter",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Email Marketer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "PPC Specialist",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Video Marketer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Social Media Marketer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Affiliate Marketer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Influencer Marketer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Content Marketer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Brand Strategist",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Market Researcher",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Business Consultant",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Project Manager",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Virtual Assistant",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Data Entry Specialist",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Transcriptionist",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Customer Support Representative",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Sales Representative",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Account Manager",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "HR Consultant",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Financial Analyst",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Business Plan Writer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Legal Consultant",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Photographer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Videographer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Photo Retoucher",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Photo Manipulator",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Event Photographer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Wedding Photographer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Portrait Photographer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Fashion Photographer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Food Photographer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Travel Photographer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Product Photographer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Interior Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Architectural Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Exhibition Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Landscaping Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Fashion Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Jewelry Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Textile Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Furniture Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Industrial Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Package Designer",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Brand Consultant",
+    "job_domain": "Design & Creative"
+  },
+  {
+    "job": "Sales Representative",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Marketing Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Digital Marketing Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Social Media Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Content Marketer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "SEO Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "PPC Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Email Marketer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Influencer Marketer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Copywriter",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Public Relations Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Brand Strategist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Market Researcher",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Business Development Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Lead Generation Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Sales Consultant",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Account Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "CRM Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "E-commerce Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Affiliate Marketer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Event Planner",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Product Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Marketing Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Media Buyer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Graphic Designer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Web Designer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Video Editor",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Photographer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Videographer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Animator",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Voice Over Artist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Presentation Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Digital Advertising Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Social Media Advertising Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Marketplace Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Sales Funnel Expert",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Conversion Rate Optimizer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Customer Success Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Content Writer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Blogger",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Podcaster",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Online Community Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Sales Trainer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Business Coach",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Digital Strategist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Event Marketer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Trade Show Coordinator",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Affiliate Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Customer Support Representative",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Sales Operations Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Market Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Brand Ambassador",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Inbound Marketer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Outbound Marketer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "CRM Administrator",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Social Media Influencer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Public Speaker",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Webinar Host",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Marketing Automation Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "E-commerce Consultant",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Marketplace Consultant",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Sales Copywriter",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Landing Page Designer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Video Producer",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Media Planner",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Market Research Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Business Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "PPC Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Social Media Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Content Strategist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "SEO Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Campaign Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Direct Sales Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Strategic Partnerships Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Email Campaign Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Content Creator",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Web Analytics Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Online Advertising Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Business Development Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Market Segmentation Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Lead Generation Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Sales Enablement Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Market Research Consultant",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "PR Coordinator",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Marketplace Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Sales Operations Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "E-commerce Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Conversion Funnel Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Customer Retention Specialist",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Marketing Data Analyst",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Social Media Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Marketing Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Sales Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Brand Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Product Marketing Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Content Marketing Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "SEO Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "PPC Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Email Marketing Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Public Relations Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Event Manager",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Creative Director",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Marketing Director",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Sales Director",
+    "job_domain": "Sales & Marketing"
+  },
+  {
+    "job": "Content Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Copywriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Blogger",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Technical Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Ghostwriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Article Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Creative Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Social Media Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Scriptwriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Resume Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Grant Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Press Release Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Proofreader",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Translator",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Transcriptionist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Localization Specialist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Language Tutor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Book Reviewer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Researcher",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Ebook Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Journalist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Speechwriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Academic Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Legal Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Medical Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Whitepaper Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Business Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Travel Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Product Description Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Website Content Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Email Copywriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Newsletter Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Proposal Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Video Scriptwriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Sales Copywriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Technical Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Screenwriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Journalist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Blog Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Copy Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Grant Proposal Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Fiction Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Non-fiction Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Research Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Business Plan Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Medical Transcriptionist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Poetry Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Legal Transcriptionist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Curriculum Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Game Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Feature Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Recipe Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Proofreader",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Magazine Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Financial Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Web Content Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Radio Scriptwriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Translator",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Content Strategist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Website Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Blogger",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Copywriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Document Translator",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Medical Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Journal Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Book Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Script Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Academic Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Copywriting Specialist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Technical Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Video Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Creative Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Social Media Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Magazine Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Resume Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Grant Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Book Translator",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Press Release Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Proofreading Specialist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Article Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Localization Specialist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Language Tutor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Screenplay Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Book Reviewer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Researcher",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance eBook Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Journalist",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Speechwriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Academic Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Legal Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Medical Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Whitepaper Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Business Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Travel Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Product Description Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Website Content Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Email Copywriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Newsletter Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Proposal Writer",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Video Scriptwriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Sales Copywriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Technical Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Screenwriter",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Freelance Journal Editor",
+    "job_domain": "Writing & Translation"
+  },
+  {
+    "job": "Virtual Assistant",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Customer Service Representative",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Entry Specialist",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Email Handling",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Appointment Setting",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Order Processing",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Live Chat Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Phone Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Technical Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Help Desk",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Social Media Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Content Moderation",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Transcription",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Research Assistant",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Travel Planning",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Calendar Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Database Administration",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Document Formatting",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "File Organization",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Analysis",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Market Research",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Lead Generation",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "CRM Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Sales Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Invoicing and Billing",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Inventory Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Vendor Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Procurement Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Event Planning and Coordination",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Project Management Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Translation and Localization",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Proofreading and Editing",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Meeting Minutes Preparation",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Report Generation",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Cleansing",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Database Maintenance",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Email Marketing Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Product Listing and Cataloging",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Survey Administration",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Customer Feedback Analysis",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Online Community Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Order Tracking and Fulfillment",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Document Conversion",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Mining",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Scheduling and Reservations",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Customer Complaint Resolution",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Scraping",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Quality Assurance",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Feedback Collection and Analysis",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "CRM Data Entry",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Invoice Processing",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Customer Onboarding",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Knowledge Base Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Remote Team Coordination",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Database Reporting",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Chatbot Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "User Support and Training",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Email Filtering and Organization",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Forms Processing",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Salesforce Administration",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Product Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "User Testing",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Social Media Monitoring",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Content Curation",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Visualization",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Loyalty Program Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Database Security Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Online Reputation Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Product Data Entry",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Email Campaign Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Customer Retention",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Order Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "CRM Reporting",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Appointment Scheduling",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "User Account Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Customer Survey Administration",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Backup and Recovery",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Live Web Chat",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Accounting Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Troubleshooting",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "User Documentation",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Product Research",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Entry Validation",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Customer Support Ticket Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Tracking and Analysis",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Database Migration",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Customer Satisfaction Analysis",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Social Media Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Feedback Response",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Email Support",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Customer Engagement",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Billing Disputes Resolution",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Cleansing and Deduplication",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Order Verification",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "CRM Customization",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Appointment Reminder Calls",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Entry Automation",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Knowledge Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Content Filtering",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Data Entry Quality Control",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Customer Success Management",
+    "job_domain": "Admin & Customer Support"
+  },
+  {
+    "job": "Bookkeeping",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Accounts Payable",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Accounts Receivable",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Budgeting and Forecasting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Tax Preparation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Payroll Processing",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Reporting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Bank Reconciliation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Auditing Services",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Planning",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Invoice Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Expense Tracking",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Cash Flow Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Modeling",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Data Entry",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Statements",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Credit Control",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Cost Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Tax Compliance",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Consultation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Risk Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Profit and Loss Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Investment Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Statement Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Expense Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Software Setup",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Document Preparation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Tax Advisory",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Process Improvement",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Due Diligence",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Statement Review",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Data Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Budget Preparation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Decision Making",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "VAT Returns",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Inventory Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Record Keeping",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Business Valuation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Implementation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Planning and Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Cost Control",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Forensic Accounting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Internal Controls",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Risk Assessment",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Cash Flow Forecasting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Accounts Reconciliation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Compliance",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Statement Consolidation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Project Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Merger and Acquisition Due Diligence",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Modelling and Forecasting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Expense Reporting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Software Training",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Capital Budgeting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Data Entry",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Software Customization",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Cash Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Process Documentation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Statement Preparation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Payroll Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Tax Planning",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Audit",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Strategy Planning",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Cost Benefit Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Risk Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Management Accounting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Integration",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Dashboard Development",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Accounting Software Implementation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Upgrade",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Compliance Audit",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Fixed Asset Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Feasibility Study",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Data Cleansing",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Expense Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Troubleshooting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Tax Compliance Review",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Procedure Development",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Ratio Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Accounts Closure",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Performance Evaluation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Capital Expenditure Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Migration",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Process Automation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Variance Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Data Migration",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Payroll Tax Reporting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Enhancement",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Controls Review",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Accounts Receivable Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Software Integration",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Revenue Recognition",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Configuration",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Tax Return Review",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Process Review",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Inventory Valuation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Maintenance",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Testing",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Projection",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Cash Flow Analysis",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Fixed Asset Accounting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Support",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Tax Audit Support",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Statement Auditing",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Payroll Tax Compliance",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Evaluation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Accounts Payable Management",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial System Training",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Financial Planning and Forecasting",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "Cost Allocation",
+    "job_domain": "Finance & Accounting"
+  },
+  {
+    "job": "CAD Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "3D Modeling",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Architectural Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Structural Engineering",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Mechanical Engineering",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Electrical Engineering",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Civil Engineering",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Drafting Services",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Product Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Interior Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Industrial Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Building Information Modeling (BIM)",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Finite Element Analysis (FEA)",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Construction Drawings",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Mechanical Drafting",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Schematic Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Architectural Rendering",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Conversion",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Reverse Engineering",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "HVAC Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Architectural Drafting",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Piping Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Urban Planning",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Building Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Electrical Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Structural Analysis",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Machine Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Landscaping Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Plumbing Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Civil Drafting",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Rapid Prototyping",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "3D Printing",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Product Development",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Floor Plan Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Prototype Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Drafting",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Surveying",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Road Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Mechanical Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Lighting Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Construction Supervision",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Material Selection",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Process Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "BIM Modeling",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Cost Estimation",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Customization",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Architectural Modeling",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Civil Analysis",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Structural Drafting",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Electrical Drafting",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Rendering",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Site Planning",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Energy Analysis",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Product Rendering",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Mechanical Analysis",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Technical Drawing",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD CAM Programming",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Architectural Visualization",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Product Testing",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Building Surveying",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Mold Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Documentation",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Drafting Review",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Plumbing Drafting",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Standards Development",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Construction Documentation",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Process Flow Diagrams",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Architectural Restoration",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Electrical Panel Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD File Conversion",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "BIM Coordination",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Foundation Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "2D to 3D Conversion",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Training",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Structural Modeling",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Interior Rendering",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Landscape Planning",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Structural Detailing",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Mechanical Drafting Services",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Assembly Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Architectural Drafting Services",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Electrical System Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Model Cleanup",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Facility Layout Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Model Verification",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Building Systems Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Mechanism Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Civil Engineering Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Architectural Concept Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Mechanical Engineering Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Building Energy Modeling",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Electrical Schematic Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Engineering Analysis",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Product Assembly Instructions",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Structural Engineering Analysis",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Sheet Metal Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Model Optimization",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Conceptual Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Steel Detailing",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Construction Cost Estimating",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Electrical Power Distribution Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "BIM Clash Detection",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Architectural Space Planning",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "HVAC System Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Finite Element Modeling",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Electrical Control Panel Design",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Mechanical Simulation",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "CAD Drafting Services",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Building Code Compliance",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Architectural Walkthrough",
+    "job_domain": "Engineering & Architecture"
+  },
+  {
+    "job": "Site Development Planning",
+    "job_domain": "Engineering & Architecture"
+  }
+]
