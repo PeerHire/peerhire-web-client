@@ -636,119 +636,121 @@ const FindWorkSearchResult = () => {
     );
     setItemOffset(newOffset);
   };
-  
+
   return (
     <div>
       <Header />
-      <div className="find-work-container">
-        {/*-------- find work page section ---------*/}
-        <div className="find-work-page">
-          {/*-------- search bar section ---------*/}
-          <div className="job-search-bar">
-            <input
-              type="text"
-              placeholder="Search for jobs"
-              value={searchQuery}
-              onChange={handleSearchChange}
-            />
-            <button onClick={() => navigate("/find-work/search")}>
-              <FaSearch />
-            </button>
-          </div>
+      <div className="find-work">
+        <div className="find-work-container">
+          {/*-------- find work page section ---------*/}
+          <div className="find-work-page">
+            {/*-------- search bar section ---------*/}
+            <div className="job-search-bar">
+              <input
+                type="text"
+                placeholder="Search for jobs"
+                value={searchQuery}
+                onChange={handleSearchChange}
+              />
+              <button onClick={() => navigate("/find-work/search")}>
+                <FaSearch />
+              </button>
+            </div>
 
-          {/*-------- job cards section ---------*/}
-          <div className="job-cards">
-            {/* search results heading and sorting section */}
-            <div className="sorting-header">
-              <span className="search-result-heading">Search Results</span>
-              <div>
-                <span>104 Projects Found</span>
+            {/*-------- job cards section ---------*/}
+            <div className="job-cards">
+              {/* search results heading and sorting section */}
+              <div className="sorting-header">
+                <span className="search-result-heading">Search Results</span>
+                <div>
+                  <span>104 Projects Found</span>
 
-                <div class="sort-by dropdown">
-                  <span>Sort by:</span>
-                  <button
-                    className="nav-link dropdown-toggle"
-                    type="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Jobs
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <button className="dropdown-item">Newest</button>
-                    </li>
-                    <li>
-                      <button className="dropdown-item">Name</button>
-                    </li>
-                    <li>
-                      <button className="dropdown-item">Date</button>
-                    </li>
-                  </ul>
+                  <div class="sort-by dropdown">
+                    <span>Sort by:</span>
+                    <button
+                      className="nav-link dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Jobs
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <button className="dropdown-item">Newest</button>
+                      </li>
+                      <li>
+                        <button className="dropdown-item">Name</button>
+                      </li>
+                      <li>
+                        <button className="dropdown-item">Date</button>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {currentItems.map((job) => (
-              <JobCard key={job.id} job={job} />
-            ))}
+              {currentItems.map((job) => (
+                <JobCard key={job.id} job={job} />
+              ))}
 
-            <div className="load-more-job">
-              <ReactPaginate
-                breakLabel="...."
-                nextLabel="next"
-                onPageChange={handlePageClick}
-                pageRangeDisplayed={5}
-                pageCount={pageCount}
-                previousLabel="previous"
-                renderOnZeroPageCount={null}
-                breakClassName={"break-me"}
-                containerClassName={"pagination"}
-                activeClassName={"active"}
-              />
+              <div className="load-more-job">
+                <ReactPaginate
+                  breakLabel="...."
+                  nextLabel="next"
+                  onPageChange={handlePageClick}
+                  pageRangeDisplayed={5}
+                  pageCount={pageCount}
+                  previousLabel="previous"
+                  renderOnZeroPageCount={null}
+                  breakClassName={"break-me"}
+                  containerClassName={"pagination"}
+                  activeClassName={"active"}
+                />
+              </div>
             </div>
           </div>
-        </div>
 
-        {/*-------- Righ side filter section ---------*/}
+          {/*-------- Righ side filter section ---------*/}
 
-        <div className="filter-section">
-          <span className="filter-section-heading">Filter By</span>
-          <div>
-            <div className="categories-filter">
-              <span>Categories</span>
-              <div>
-                <CategorySearchBar/>
+          <div className="filter-section">
+            <span className="filter-section-heading">Filter By</span>
+            <div>
+              <div className="categories-filter">
+                <span>Categories</span>
+                <div>
+                  <CategorySearchBar />
+                </div>
               </div>
-            </div>
 
-            <div className="project-type">
-              <span>Project Type</span>
-              <div>
-                <label>
-                  <input
-                    type="checkbox"
-                    checked={isFixedPriceChecked}
-                    onChange={handleFixedPriceChange}
-                  />
-                  Fixed Price
-                </label>
-                <br />
-                <label>
-                  <input
-                    type="checkbox"
-                    checked={isHourlyRateChecked}
-                    onChange={handleHourlyRateChange}
-                  />
-                  Hourly Based Rate
-                </label>
+              <div className="project-type">
+                <span>Project Type</span>
+                <div>
+                  <label>
+                    <input
+                      type="checkbox"
+                      checked={isFixedPriceChecked}
+                      onChange={handleFixedPriceChange}
+                    />
+                    Fixed Price
+                  </label>
+                  <br />
+                  <label>
+                    <input
+                      type="checkbox"
+                      checked={isHourlyRateChecked}
+                      onChange={handleHourlyRateChange}
+                    />
+                    Hourly Based Rate
+                  </label>
+                </div>
               </div>
-            </div>
 
-            <div className="budget-filter">
-              <span>Budget</span>
-              <div>
-                <PriceRangeFilter />
+              <div className="budget-filter">
+                <span>Budget</span>
+                <div>
+                  <PriceRangeFilter />
+                </div>
               </div>
             </div>
           </div>
