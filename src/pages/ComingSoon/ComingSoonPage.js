@@ -1,27 +1,66 @@
 import React from "react";
-import "./AboutUs.scss";
+import "..//AboutUs/AboutUs.scss";
+import "./ComingSoonSection.scss";
 import connect from "..//..//assets/image/connect.png";
 import mission from "..//..//assets/image/mission.png";
 import sumitnirmal from "..//..//assets/image/sumit.jpeg";
 import pubali from "..//..//assets/image/pubali.jpeg";
 import logoicon from "..//..//assets/image/logoicon2.png";
 import peerhirename from "..//..//assets/image/peerhirename2.png";
-import { NavLink } from "react-router-dom";
+import { FaFacebook, FaTwitter, FaInstagram,FaLinkedin } from "react-icons/fa";
 
-const AboutUs = () => {
+const ComingSoonPage = () => {
   return (
     <div className="about-us-page">
       <div className="signup-header">
-        <NavLink to="/" className="main-logo-container">
+        <span className="main-logo-container">
           <img className="main-logo-icon" src={logoicon} alt="PeerHire Logo" />
           <img
             className="main-logo-name"
             src={peerhirename}
             alt="PeerHire Logo"
           />
-        </NavLink>
+        </span>
       </div>
-      <h2 className="section-heading">About Us</h2>
+      <section className="coming-soon">
+        <div className="coming-soon__content">
+          <h2 className="coming-soon__title">Coming Soon...</h2>
+          <p className="coming-soon__description">
+            Stay tuned for our exciting platform!
+          </p>
+          <div className="coming-soon__social-links">
+            <a
+              href="https://www.linkedin.com/company/peerhire/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/peerhire/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/peerhire/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/peerhire/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </a>
+          </div>
+        </div>
+      </section>
+      {/* <h2 className="section-heading">About Us</h2> */}
       <section className="intro-section">
         <div>
           <h1>Connecting College Students Through PeerHire</h1>
@@ -85,4 +124,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default ComingSoonPage;

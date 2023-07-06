@@ -28,7 +28,7 @@ const Login = ({ setOpen }) => {
     setOpen(false);
     console.log("Login");
     dispatch(login(userData));
-    navigate("./find-work");
+    navigate("/find-work");
     console.log(user);
     console.log(isAuthenticated);
   };
@@ -83,7 +83,7 @@ const Login = ({ setOpen }) => {
         <div className="create-account-component">
           <span>
             Don't have an account?
-            <a href="./signup" className="create-account">
+            <a href="/signup" className="create-account">
               Create account
             </a>
           </span>

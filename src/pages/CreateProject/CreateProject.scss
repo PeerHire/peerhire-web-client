@@ -1,0 +1,137 @@
+@import "../../styles/style.scss";
+
+.project-creation-page {
+  margin: 0 auto;
+  margin-top: 71px;
+
+  .project-creation-heading {
+    background-color: #f8f8f8;
+    padding: 50px;
+    margin-bottom: 65px;
+    width: 100%;
+    h2 {
+      font-size: 26px;
+      color: #333;
+      font-weight: 400;
+    }
+  }
+
+  .project-creation-form {
+    display: flex;
+    justify-content: space-evenly;
+
+    form {
+        box-shadow: 0 2px 8px #9e9e9e61;
+        width: 50%;
+
+      .project-details-heading {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $lightgray;
+        padding: 20px;
+        svg{
+            margin-right: 5px;
+            color: $lightblue1;
+            font-size: 20px;
+        }
+
+        span{
+            font-size: 19px;
+            color: $darkblue;
+            font-weight: 500;
+        }
+      }
+
+      .form-group {
+        padding: 20px;
+
+        label {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 12px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 27px;
+            color: #666666;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        textarea,
+        select {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          outline: none;
+          color: #666666;
+        }
+
+        textarea {
+          height: 150px;
+          resize: vertical;
+        }
+
+        select {
+          appearance: none;
+          //background-image: url("..//../assets/SVG/dropdown.svg");
+          background-repeat: no-repeat;
+          background-position: right center;
+          background-color: #fff;
+          padding-right: 25px;
+          cursor: pointer;
+        }
+
+        .budget-range {
+          display: flex;
+          align-items: center;
+
+          input {
+            flex: 1;
+            margin-right: 10px;
+          }
+
+          span {
+            margin: 0 10px;
+          }
+        }
+
+        .payment-method {
+          .radio-group {
+            display: flex;
+
+            .radio-option {
+              display: flex;
+              align-items: center;
+              margin-right: 20px;
+
+              input[type="radio"] {
+                margin-right: 5px;
+              }
+
+              label {
+                font-weight: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}

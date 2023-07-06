@@ -10,12 +10,11 @@
   padding-left: 60px;
   display: flex;
   justify-content: center;
-  //-------------------post a project section---------------------
 
   .find-work-page {
     padding: 20px;
     width: 70%;
-
+    //-------------------post a project section---------------------
     .project-creation-section {
       display: flex;
       align-items: center;
@@ -25,7 +24,7 @@
       width: 96%;
       margin-left: 20px;
       margin-bottom: 20px;
-     // background-color: $lightblue2;
+      // background-color: $lightblue2;
 
       .image-container {
         margin-right: 20px;
@@ -72,7 +71,7 @@
         background-color: $lightblue3;
       }
     }
-
+    //-------------------Job search bar section---------------------
     .job-search-bar {
       margin-bottom: 20px;
       border-radius: 12px;
@@ -107,7 +106,7 @@
         }
       }
     }
-
+    //-------------------job cards section---------------------
     .job-cards {
       display: flex;
       flex-direction: column;
@@ -307,7 +306,7 @@
       }
     }
   }
-
+  //-------------------left profile section section---------------------
   .left-profile-section {
     background-color: transparent;
     margin: 20px;
@@ -482,7 +481,7 @@
       }
     }
   }
-
+  //-------------------filter section---------------------
   .filter-section {
     width: 20%;
     padding-top: 20px;
