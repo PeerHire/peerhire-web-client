@@ -8,13 +8,16 @@ import {
 } from "react-icons/md";
 import { GiMoneyStack } from "react-icons/gi";
 import { CgProfile } from "react-icons/cg";
-
+import { useNavigate } from "react-router-dom";
 const MAX_DESCRIPTION_LENGTH = 1024;
 
 const JobCard = ({ job }) => {
+
+  const navigate = useNavigate();
   const [showFullDescription, setShowFullDescription] = useState(false);
   const handleJobClick = () => {
     // Handle job card click event, navigate to the job details page
+    navigate("/project-details")
     // You can use the 'react-router-dom' library to handle navigation
   };
 

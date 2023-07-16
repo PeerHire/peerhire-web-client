@@ -8,6 +8,7 @@ import FindWork from "./pages/FindWork/FindWork";
 import FindWorkSearchResult from "./pages/FindWork/FindWorkSearchResult";
 import CreateProject from "./pages/CreateProject/CreateProject";
 import ComingSoonPage from "./pages/ComingSoon/ComingSoonPage";
+import ProjectPage from "./pages/ProjectDetails/ProjectPage";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/find-work/search" element = {<FindWorkSearchResult/>} />
         <Route path="/create-project" element = {<CreateProject/>} />
         <Route path="/coming-soon" element = {<ComingSoonPage/>} />
+        <Route path="/project-details" element = {<ProjectPage/>} />
       </Routes>
     </Router>
   );
