@@ -1,0 +1,256 @@
+@import "../../styles/style.scss";
+
+.bidding-page {
+  margin-top: 71px;
+  padding: 20px;
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #001e00;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .bidding-form-container {
+    display: flex;
+    .form-div {
+      padding: 20px;
+      border: 1px solid #e2e2e2;
+      border-radius: 10px;
+      width: 60%;
+      .form-group {
+        margin-bottom: 20px;
+
+        label {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 10px;
+          font-size: 16px;
+          color: $darkblue;
+        }
+
+        .project-name {
+          margin-bottom: 20px;
+          font-size: 20px;
+          color: $lightblue1;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input[type="number"],
+        textarea,
+        select {
+          width: 100%;
+          padding: 10px;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+          font-size: 16px;
+          color: #555;
+          outline: none;
+        }
+
+        .input-group {
+          display: flex;
+          align-items: center;
+          position: relative;
+
+          .currency {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 16px;
+            color: #555;
+          }
+        }
+
+        select {
+          appearance: none;
+          // background: url('arrow-down.svg') no-repeat right center;
+          padding-right: 30px;
+          background-color: #fff;
+          background-size: 15px;
+          background-position-x: calc(100% - 10px);
+          background-position-y: 50%;
+          cursor: pointer;
+        }
+
+        textarea {
+          height: 120px;
+          resize: vertical;
+        }
+
+        .file-upload {
+          display: flex;
+          align-items: center;
+
+          input[type="file"] {
+            display: none;
+          }
+
+          label {
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            background-color: #f2f2f2;
+            color: #333;
+            border-radius: 4px;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #e6e6e6;
+            }
+
+            .file-name {
+              margin-left: 10px;
+              font-size: 14px;
+              color: #666;
+            }
+          }
+        }
+
+        .error {
+          color: #f00;
+          font-size: 14px;
+          margin-top: 5px;
+        }
+
+        p {
+          font-size: 14px;
+          margin-top: 10px;
+          color: #777;
+        }
+      }
+
+      button[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 16px;
+        transition: background-color 0.3s ease-in-out;
+
+        &:hover {
+          background-color: #45a248;
+        }
+      }
+    }
+    //------------------------------------------------------------------
+    //---------------------live bidding section-------------------------
+    //------------------------------------------------------------------
+    .Live-bidding-section {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 40%;
+      margin-left: 10px;
+
+      .live-bidding {
+        margin-top: 20px;
+
+        h3 {
+          margin-bottom: 20px;
+          font-size: 24px;
+          color: #001e00;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          max-height: 100px;
+          overflow-y: scroll;
+
+          th,
+          td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+          }
+
+          th {
+            font-weight: 600;
+          }
+
+          tbody tr:last-child td {
+            border-bottom: none;
+          }
+
+          .refresh-bid,
+          .edit-bid,
+          .delete-bid {
+            padding: 5px 10px;
+            margin-right: 5px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            background-color: transparent;
+            font-size: 20px;
+            font-weight: 600;
+            color: $lightblue1;
+
+            &:hover {
+              background-color: #f0f0f0;
+            }
+          }
+        }
+        .bidding-form {
+          margin-top: 20px;
+
+          input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            outline: none;
+          }
+          /* Remove the default arrow styling for number input */
+          input[type="number"]::-webkit-inner-spin-button,
+          input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
+
+          input[type="number"] {
+            /* Hide arrows from IE 10+ */
+            -moz-appearance: textfield;
+          }
+
+          .error {
+            color: #f00;
+            font-size: 14px;
+            margin-top: 5px;
+          }
+  
+          p {
+            font-size: 14px;
+            margin-top: 10px;
+            color: #777;
+          }
+
+          button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: $lightblue1;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+          }
+        }
+      }
+    }
+  }
+}

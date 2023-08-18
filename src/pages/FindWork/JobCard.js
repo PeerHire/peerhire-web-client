@@ -22,9 +22,9 @@ const JobCard = ({ job }) => {
   };
 
   return (
-    <div className="job-card" onClick={handleJobClick}>
+    <div className="job-card">
       <div className="job-title-container">
-        <h3>{job.title}</h3>
+        <h3 onClick={handleJobClick}>{job.title}</h3>
         <div className="save-jobs-button">
           <FaRegHeart className="save-jobs-icon" />
         </div>

@@ -9,6 +9,10 @@ import FindWorkSearchResult from "./pages/FindWork/FindWorkSearchResult";
 import CreateProject from "./pages/CreateProject/CreateProject";
 import ComingSoonPage from "./pages/ComingSoon/ComingSoonPage";
 import ProjectPage from "./pages/ProjectDetails/ProjectPage";
+import BiddingPage from "./pages/Bidding/BiddingPage";
+import MyProjects from "./pages/MyProjects/MyProjects";
+import FreelancerSelection from "./pages/FreelancerSelection/FreelancerSelection";
+import MessagingPage from "./pages/Messages/MessagingPage";
 
 
 function App() {
@@ -25,6 +29,10 @@ function App() {
         <Route path="/create-project" element = {<CreateProject/>} />
         <Route path="/coming-soon" element = {<ComingSoonPage/>} />
         <Route path="/project-details" element = {<ProjectPage/>} />
+        <Route path="/bidding-page" element = {<BiddingPage/>} />
+        <Route path="/my-projects" element = {<MyProjects/>} />
+        <Route path="/freelancer-selection" element = {<FreelancerSelection/>} />
+        <Route path="/messages" element = {<MessagingPage/>} />
       </Routes>
     </Router>
   );

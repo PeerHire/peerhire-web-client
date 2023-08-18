@@ -6,9 +6,11 @@ import BlankProfileImage from "..//..//assets/SVG/blank-profile-picture-973460.s
 import ProfileImage from "..//..//assets/image/sumit.jpeg";
 import { FaStar, FaStarHalfAlt, FaRegStar, FaRegHeart } from "react-icons/fa";
 import { ImPriceTag } from "react-icons/im";
+import { useNavigate } from "react-router-dom";
 import parse from "html-react-parser";
 
 const ProjectPage = () => {
+  const navigate = useNavigate();
   // Mock data for demonstration
   const projectDetails = {
     student: {
@@ -127,7 +129,7 @@ const ProjectPage = () => {
           </div>
           <div className="project-Student-info">
             <div className="apply-save-project">
-              <button className="apply">Apply Now</button>
+              <button className="apply" onClick={()=>navigate("/bidding-page")}>Apply Now</button>
               <button className="save">
                 <FaRegHeart /> Save Project
               </button>

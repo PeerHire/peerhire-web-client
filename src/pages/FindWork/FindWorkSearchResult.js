@@ -648,7 +648,7 @@ const FindWorkSearchResult = () => {
             <div className="job-search-bar">
               <input
                 type="text"
-                placeholder="Search for jobs"
+                placeholder="Search for projects"
                 value={searchQuery}
                 onChange={handleSearchChange}
               />
@@ -673,7 +673,7 @@ const FindWorkSearchResult = () => {
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      Jobs
+                      Projects
                     </button>
                     <ul class="dropdown-menu">
                       <li>

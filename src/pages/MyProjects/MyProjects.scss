@@ -1,0 +1,241 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../../styles/style.scss";
+
+.my-projects-page {
+  padding: 20px;
+  margin: 10px;
+  margin-top: 91px;
+  background-color: #fff;
+  border-radius: 8px;
+  min-height: 80vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  .heading-container {
+    display: flex;
+    justify-content: space-between;
+
+    .my-projects-heading {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #001e00;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .filters {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+      width: 50%;
+
+      .search-box {
+        position: relative;
+        display: flex;
+        align-items: center;
+        max-width: 300px;
+
+        input {
+          padding: 8px 32px 8px 8px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          outline: none;
+          width: 100%;
+
+          &:focus {
+            border-color: $lightblue1;
+          }
+        }
+
+        .search-icon {
+          position: absolute;
+          right: 8px;
+          cursor: pointer;
+          color: $lightblue1;
+        }
+      }
+
+      .status-filter {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 20px;
+
+        select {
+          border: none;
+          background-color: transparent;
+          outline: none;
+          appearance: none;
+          margin-left: 8px;
+          cursor: pointer;
+          font-size: 16px;
+          color: #666;
+          padding: 8px 12px;
+        }
+      }
+
+      .filter-icon,
+      .down-icon {
+        margin-right: 8px;
+        color: $lightblue1;
+      }
+    }
+  }
+
+  .no-projects-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    color: #888;
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+.project-card {
+  width: 48%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .project-heading {
+    display: flex;
+    align-items: center;
+    h2 {
+      font-size: 20px;
+      color: $darkblue;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+      cursor: pointer;
+    }
+
+    p {
+      font-size: 14px;
+      margin-left: 10px;
+      display: flex;
+      justify-content: center;
+      font-weight: 500;
+      align-items: center;
+      padding: 5px;
+      border-radius: 10px;
+      height: 20px;
+    }
+
+    // Add custom styles for different project statuses
+    .status-open {
+      background-color: #e6f7ff;
+      color: #1890ff;
+    }
+
+    .status-under {
+      background-color: #fffbe6;
+      color: #ffc107;
+    }
+
+    .status-completed {
+      background-color: #eafff5;
+      color: #52c41a;
+    }
+
+    .status-final {
+      background-color: #fffb8f;
+      color: #faad14;
+    }
+
+    .status-closed {
+      background-color: #ffd6cc;
+      color: #f5222d;
+    }
+
+    .status-incomplete {
+      background-color: #ffe6b3;
+      color: #ff7a45;
+    }
+  }
+  .bid-time {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #666;
+    svg {
+      margin-right: 5px;
+      font-size: 18px;
+    }
+  }
+  .bids{
+    display: flex;
+    background-color: #fbf9f9;
+    width: fit-content;
+    padding: 5px;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(93, 93, 93, 0.35);
+    border-radius: 10px;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 30%;
+        span{
+            font-weight: 500;
+        }
+        .txt{
+            color: #666;
+            font-weight: 500;
+        }
+    }
+  }
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+
+  .manage-project-button {
+    display: flex;
+
+    .manage-bidder-btn {
+      background-color: $lightblue1;
+      margin-right: 10px;
+    }
+
+    .close-project-btn {
+        color: #666;
+      background-color: $lightgray;
+    }
+
+    svg {
+      margin-right: 8px;
+    }
+  }
+}

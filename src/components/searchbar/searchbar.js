@@ -3,7 +3,7 @@ import "./searchbar.scss"
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [searchType, setSearchType] = useState('job');
+  const [searchType, setSearchType] = useState('Project');
 
   const handleSearchTermChange = (e) => {
     setSearchTerm(e.target.value);
@@ -23,13 +23,13 @@ const SearchBar = () => {
     <form className="search-bar" onSubmit={handleSearch}>
       <input
         type="text"
-        placeholder="Search by job or talent"
+        placeholder="Search by project or talent"
         value={searchTerm}
         onChange={handleSearchTermChange}
       />
       <select value={searchType} onChange={handleSearchTypeChange}>
-        <option value="job">Job</option>
-        <option value="talent">Talent</option>
+        <option value="Project">Project</option>
+        <option value="Talent">Talent</option>
       </select>
       <button type="submit">Search</button>
     </form>

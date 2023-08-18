@@ -205,7 +205,7 @@ const FindWork = () => {
             <div className="job-search-bar">
               <input
                 type="text"
-                placeholder="Search for jobs"
+                placeholder="Search for projects"
                 value={searchQuery}
                 onChange={handleSearchChange}
               />
@@ -216,7 +216,7 @@ const FindWork = () => {
             {/*-------- job cards section ---------*/}
             <div className="job-cards">
               <div className="job-cards-container-header">
-                <h3>Jobs you might like</h3>
+                <h3>Projects you might like</h3>
               </div>
               <div className="job-cards-tab-button">
                 <button
@@ -241,7 +241,7 @@ const FindWork = () => {
                   }
                   onClick={() => handleTabChange("saved-jobs")}
                 >
-                  Saved Jobs
+                  Saved Projects
                 </button>
               </div>
 

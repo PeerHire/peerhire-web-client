@@ -65,17 +65,17 @@ const Header = () => {
               <ul class="dropdown-menu">
                 <li>
                   <NavLink to="/find-work" className="dropdown-item">
-                    Find Work
+                    Find Project
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/saved-jobs" className="dropdown-item">
-                    Saved Jobs
+                  <NavLink to="/saved-projects" className="dropdown-item">
+                    Saved Projects
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="/proposals" className="dropdown-item">
-                    Proposals
+                    My Proposals
                   </NavLink>
                 </li>
               </ul>
@@ -88,22 +88,17 @@ const Header = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Jobs
+                Projects
               </button>
               <ul class="dropdown-menu">
                 <li>
                   <NavLink to="/create-project" className="dropdown-item">
-                    Post a Job
+                    Post a Project
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/my-jobs" className="dropdown-item">
-                    My jobs
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/all-job-posts" className="dropdown-item">
-                    All Job posts
+                  <NavLink to="/my-projects" className="dropdown-item">
+                    My Projects
                   </NavLink>
                 </li>
               </ul>

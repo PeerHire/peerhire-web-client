@@ -1,0 +1,392 @@
+@import "../../styles/style.scss";
+
+.project-page {
+  margin-top: 71px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 26px;
+    margin: 0px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $darkblue;
+  }
+  .project-container {
+    display: flex;
+    border: 1px solid $lightgray;
+    border-radius: 20px;
+
+    .project-details-info {
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid $lightgray;
+      width: 75%;
+      .project-name-container {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid $lightgray;
+        padding: 20px;
+
+        .project-name {
+          font-size: 22px;
+          font-family: Arial, Helvetica, sans-serif;
+          color: $darkblue;
+        }
+        .project-category {
+          font-size: 14px;
+          color: $lightblue1;
+          font-weight: 500;
+          text-decoration: underline;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .project-post-time {
+          font-size: 14px;
+          color: #5e6d55;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+
+      .description {
+        margin-bottom: 10px;
+        border-bottom: 1px solid $lightgray;
+        padding: 20px;
+        white-space: pre-line;
+        font-family: Arial, Helvetica, sans-serif;
+        a {
+          color: $lightblue1;
+        }
+        h3 {
+          margin-bottom: 5px;
+        }
+
+        p {
+          color: #001e00;
+        }
+      }
+
+      .budget {
+        margin-bottom: 10px;
+        border-bottom: 1px solid $lightgray;
+        padding: 20px;
+        display: flex;
+        svg {
+          margin-top: 5px;
+          margin-right: 10px;
+          font-size: 16px;
+        }
+        div {
+          display: flex;
+          flex-direction: column;
+        }
+        .price {
+          font-size: 18px;
+          color: #001e00;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        span {
+          font-size: 14px;
+          color: #5e6d55;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+
+      .skills {
+        margin-bottom: 10px;
+        border-bottom: 1px solid $lightgray;
+        padding: 20px;
+
+        h3 {
+          margin-bottom: 20px;
+          font-size: 18px;
+          color: #001e00;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+
+          li {
+            display: inline-block;
+            margin-right: 5px;
+            padding: 5px 10px;
+            background-color: #f2f2f2;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #666;
+          }
+        }
+      }
+
+      .activity {
+        margin-bottom: 10px;
+        padding: 20px;
+        h3 {
+          margin-bottom: 20px;
+          font-size: 18px;
+          color: #001e00;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        span {
+          font-size: 16px;
+          color: #5e6d55;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+          .no-of-bids {
+            color: #001e00;
+          }
+        }
+      }
+    }
+    .project-Student-info {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .project-status {
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 20px;
+        border-bottom: 1px solid $lightgray;
+
+        h3 {
+          margin-bottom: 20px;
+          font-size: 18px;
+          color: #001e00;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+          font-size: 14px;
+          margin-left: 10px;
+          display: flex;
+          justify-content: center;
+          font-weight: 500;
+          align-items: center;
+          padding: 6px 20px;
+          border-radius: 10px;
+        }
+
+        // Add custom styles for different project statuses
+        .status-open {
+          background-color: #e6f7ff;
+          color: #1890ff;
+        }
+
+        .status-under {
+          background-color: #fffbe6;
+          color: #ffc107;
+        }
+
+        .status-completed {
+          background-color: #eafff5;
+          color: #52c41a;
+        }
+
+        .status-final {
+          background-color: #fffb8f;
+          color: #faad14;
+        }
+
+        .status-closed {
+          background-color: #ffd6cc;
+          color: #f5222d;
+        }
+
+        .status-incomplete {
+          background-color: #ffe6b3;
+          color: #ff7a45;
+        }
+      }
+
+      .project-link-container {
+        padding: 20px;
+        h3 {
+          margin-bottom: 20px;
+          font-size: 18px;
+          color: #001e00;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .link {
+          background-color: #e2e2e2;
+          padding: 8px 10px;
+          border-radius: 10px;
+          margin-bottom: 10px;
+          color: #666;
+          max-width: 300px;
+          overflow-x: hidden;
+        }
+
+        .copy-link-button {
+          border: none;
+          background-color: transparent;
+          color: $lightblue1;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.freelancers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .freelancer-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.372);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .freelancer-info {
+      width: 80%;
+      .freelancer-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        h2 {
+          font-size: 20px;
+          color: $darkblue;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+          cursor: pointer;
+        }
+
+        .rating {
+          display: flex;
+          align-items: center;
+          padding-left: 10px;
+
+          .rating_txt {
+            color: #666;
+            font-weight: 500;
+            font-size: 14px;
+            margin-right: 5px;
+          }
+          span {
+            color: #001e00;
+            display: flex;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+          }
+          .star {
+            color: #fab914; // Set the color for the active stars
+            font-size: 16px; // Adjust the size of the stars as needed
+            margin-right: 5px; // Add some spacing between the stars
+          }
+
+          .active {
+            color: #fab914; // Set the color for the active stars
+          }
+        }
+      }
+
+      .proposal-documents {
+        margin-bottom: 10px;
+      }
+
+      .select-button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+      .accept-chat-button {
+        display: flex;
+
+        button {
+          padding: 5px 10px;
+          font-size: 14px;
+          font-weight: 500;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+        }
+
+        .accept-btn {
+          background-color: $lightblue1;
+          margin-right: 10px;
+        }
+
+        .chat-btn {
+          color: #666;
+          background-color: $lightgray;
+        }
+
+        svg {
+          margin-right: 8px;
+        }
+      }
+    }
+
+    .duration,
+    .cover-letter,
+    .attachments,
+    .rating {
+      font-size: 16px;
+      color: #777;
+      margin-bottom: 10px;
+      font-weight: 500;
+
+      a {
+        display: block;
+        margin-top: 5px;
+        color: #007bff;
+        text-decoration: underline;
+
+        &:hover {
+          color: #0056b3;
+        }
+      }
+    }
+
+    .proposed-price-duration {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      width: fit-content;
+      height: fit-content;
+      margin: 10px;
+      background-color: #fbf9f9;
+      box-shadow: 0 0 10px rgba(93, 93, 93, 0.35);
+      border-radius: 10px;
+
+      .proposed-price {
+        font-size: 18px;
+        color: #4caf50;
+        margin: 0;
+        font-weight: 500;
+      }
+      .duration {
+        color: #666;
+      }
+    }
+  }
+}

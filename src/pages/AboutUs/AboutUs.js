@@ -51,11 +51,11 @@ const AboutUs = () => {
       </section>
 
       <section className="founders-section">
-        <h2>Meet Our Founder</h2>
+        <h2>Meet Our Founders</h2>
         <div className="founder-card">
           <div className="founder-info align-left">
             <h3>Sumit Nirmal</h3>
-            <p>Founder</p>
+            <p>Co-founder</p>
             <p>
             Sumit Nirmal is a college student from IIT Kharagpur pursuing a B.Tech in Civil Engineering.
             With his passion for technology and expertise in full stack development, Sumit is the driving force behind
@@ -66,7 +66,7 @@ const AboutUs = () => {
           <img src={sumitnirmal} alt="Founder 1" />
         </div>
 
-        {/* <div className="founder-card">
+        <div className="founder-card">
           <img src={pubali} alt="Founder 2" />
           <div className="founder-info align-right">
             <h3>Pubali Pal</h3>
@@ -77,7 +77,7 @@ const AboutUs = () => {
             and attention to detail, Pubali ensures smooth operations and effective management in areas beyond technology.
             </p>
           </div>
-        </div> */}
+        </div>
       </section>
 
       {/* Add more sections, such as achievements, testimonials, contact information, etc. */}
