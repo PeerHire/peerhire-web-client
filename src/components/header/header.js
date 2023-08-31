@@ -17,6 +17,7 @@ import {
 import { CgProfile } from "react-icons/cg";
 import { logout } from "../../redux/action/authActions";
 import { useNavigate } from "react-router-dom";
+import NotificationPanel from "../../pages/Notifications/NotificationPanel";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -26,6 +27,12 @@ const Header = () => {
   const handleLoginClose = () => setOpen(false);
 
   const { user, isAuthenticated } = useSelector((state) => state.user);
+
+  const [showNotificationPanel, setShowNotificationPanel] = useState(false);
+
+  const toggleNotificationPanel = () => {
+    setShowNotificationPanel(!showNotificationPanel);
+  };
 
   const handleNavigation = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -104,7 +111,7 @@ const Header = () => {
               </ul>
             </div>
             <NavLink className="nav-link" to="/messages">
-            Messages
+              Messages
             </NavLink>
           </div>
           {/*------------- search bar--------------------- */}
@@ -115,9 +122,12 @@ const Header = () => {
             <button>
               <RiCustomerService2Line className="auth-header-icon" />
             </button>
-            <button>
+            <button onClick={toggleNotificationPanel}>
               <MdNotifications className="auth-header-icon" />
             </button>
+
+            {/* Render the NotificationPanel component conditionally */}
+            {showNotificationPanel && <NotificationPanel />}
 
             <div className="dropdown">
               <button

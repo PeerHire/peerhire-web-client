@@ -1,0 +1,50 @@
+@import "../../styles/style.scss";
+
+// NotificationPanel.scss
+
+.notification-panel {
+    position: fixed;
+    top: 70px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px $lightblue1;
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 1000;
+
+
+    .notification-list {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+
+    ul{
+        padding-left: 0;
+    }
+    
+    .notification-panel-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-bottom: 1px solid $lightblue2;
+
+      
+      .notification-text {
+        flex: 1;
+      }
+      
+      .notification-time {
+        font-size: 10px;
+        color: #999;
+      }
+      
+  }
+  }
+  
+  }
+  
+  
+  
+ 
+  
