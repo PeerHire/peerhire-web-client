@@ -14,6 +14,7 @@ import MyProjects from "./pages/MyProjects/MyProjects";
 import FreelancerSelection from "./pages/FreelancerSelection/FreelancerSelection";
 import MessagingPage from "./pages/Messages/MessagingPage";
 import NotificationsPage from "./pages/Notifications/NotificationsPage";
+import MyProposalsPage from "./pages/MyProposal/MyProposalsPage";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/freelancer-selection" element = {<FreelancerSelection/>} />
         <Route path="/messages" element = {<MessagingPage/>} />
         <Route path="/notifications" element = {<NotificationsPage/>} />
+        <Route path="/proposals" element = {<MyProposalsPage/>} />
       </Routes>
     </Router>
   );

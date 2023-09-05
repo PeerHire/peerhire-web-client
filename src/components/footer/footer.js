@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footer__links">
         <div>
           <a href="/about">About Us</a>
-          <a href="/contact">Contact Us</a>
+          <a href="/contactus">Contact Us</a>
           <a href="/trust">Trust, Safety, and Security</a>
           <a href="/impact">Our Impact</a>
         </div>
@@ -26,19 +26,19 @@ const Footer = () => {
       <div className="footer__social-media">
         <span>Follow Us:</span>
         <div>
-          <a href="https://www.facebook.com/example">
+          <a href="https://www.facebook.com/profile.php?id=100095520699756">
             <FaFacebookF />
           </a>
-          <a href="https://www.linkedin.com/company/example">
+          <a href="https://www.linkedin.com/company/peerhire">
             <FaLinkedin />
           </a>
-          <a href="https://www.youtube.com/example">
+          <a href="https://www.youtube.com/channel/UCwvFlo6njkU8Bq6TMI6Ke6A">
             <FaYoutube />
           </a>
-          <a href="https://www.twitter.com/example">
+          <a href="https://twitter.com/Peer_Hire">
             <FaTwitter />
           </a>
-          <a href="https://www.instagram.com/example">
+          <a href="https://www.instagram.com/peer_hire/">
             <FaInstagram />
           </a>
         </div>

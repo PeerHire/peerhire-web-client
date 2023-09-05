@@ -18,6 +18,7 @@ import { CgProfile } from "react-icons/cg";
 import { logout } from "../../redux/action/authActions";
 import { useNavigate } from "react-router-dom";
 import NotificationPanel from "../../pages/Notifications/NotificationPanel";
+import Chatbot from "../../pages/Chatbot/Chatbot";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -29,9 +30,14 @@ const Header = () => {
   const { user, isAuthenticated } = useSelector((state) => state.user);
 
   const [showNotificationPanel, setShowNotificationPanel] = useState(false);
+  const [showChatbotPanel, setShowChatbotPanel] = useState(false);
 
   const toggleNotificationPanel = () => {
     setShowNotificationPanel(!showNotificationPanel);
+  };
+
+  const toggleChatbotPanel = () => {
+    setShowChatbotPanel(!showChatbotPanel);
   };
 
   const handleNavigation = (sectionId) => {
@@ -75,11 +81,11 @@ const Header = () => {
                     Find Project
                   </NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink to="/saved-projects" className="dropdown-item">
                     Saved Projects
                   </NavLink>
-                </li>
+                </li> */}
                 <li>
                   <NavLink to="/proposals" className="dropdown-item">
                     My Proposals
@@ -119,9 +125,13 @@ const Header = () => {
             <SearchBar />
           </div>
           <div className="right-auth-icons-container">
-            <button>
+            <button onClick={toggleChatbotPanel}>
               <RiCustomerService2Line className="auth-header-icon" />
             </button>
+
+            {/* Render the Chatbot Panel component conditionally */}
+            {showChatbotPanel && <Chatbot setShowChatbotPanel={setShowChatbotPanel}/>}
+
             <button onClick={toggleNotificationPanel}>
               <MdNotifications className="auth-header-icon" />
             </button>
