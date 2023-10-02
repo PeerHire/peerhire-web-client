@@ -37,21 +37,21 @@ const ComingSoonPage = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://www.linkedin.com/company/peerhire/"
+              href="https://twitter.com/Peer_Hire"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaTwitter />
             </a>
             <a
-              href="https://www.linkedin.com/company/peerhire/"
+              href="https://www.facebook.com/people/Peerhire/100095520699756"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebook />
             </a>
             <a
-              href="https://www.linkedin.com/company/peerhire/"
+              href="https://www.instagram.com/peer_hire/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -61,7 +61,7 @@ const ComingSoonPage = () => {
         </div>
       </section>
       {/* <h2 className="section-heading">About Us</h2> */}
-      <section className="intro-section">
+      <section className="cs-intro-section">
         <div>
           <h1>Connecting College Students Through PeerHire</h1>
           <p>
@@ -74,7 +74,7 @@ const ComingSoonPage = () => {
         <img alt="" className="connection-img" src={connect} />
       </section>
 
-      <section className="mission-section">
+      <section className="cs-mission-section">
         <img alt="" className="mission-img" src={mission} />
         <div>
           <h2>Our Mission</h2>
@@ -89,7 +89,7 @@ const ComingSoonPage = () => {
         </div>
       </section>
 
-      <section className="founders-section">
+      <section className="cs-founders-section">
         <h2>Meet Our Founders</h2>
         <div className="founder-card">
           <div className="founder-info align-left">

@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="footer__social-media">
         <span>Follow Us:</span>
         <div>
-          <a href="https://www.facebook.com/profile.php?id=100095520699756">
+          <a href="https://www.facebook.com/people/Peerhire/100095520699756">
             <FaFacebookF />
           </a>
           <a href="https://www.linkedin.com/company/peerhire">
