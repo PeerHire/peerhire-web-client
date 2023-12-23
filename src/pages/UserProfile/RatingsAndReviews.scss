@@ -1,0 +1,25 @@
+.ratings-reviews {
+    .reviews-list {
+        .review-entry {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+
+            .review-rating {
+                font-weight: bold;
+            }
+
+            .review-comment {
+                margin-top: 5px;
+            }
+
+            .reviewer-name {
+                margin-top: 5px;
+                font-style: italic;
+            }
+        }
+    }
+
+    // Additional styling and media queries as needed
+}

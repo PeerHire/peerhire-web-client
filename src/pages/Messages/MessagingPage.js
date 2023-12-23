@@ -5,8 +5,11 @@ import defaultImage from "..//../assets/image/sumit.jpeg";
 import defaultImage1 from "..//../assets/image/pubali.jpeg";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
+import { useNavigate } from "react-router-dom";
 
 function MessagingPage() {
+
+  const navigate = useNavigate();
 
   const [searchQuery, setSearchQuery] = useState("");
   const [freelancers, setFreelancers] = useState([
@@ -184,14 +187,14 @@ function MessagingPage() {
         <div className="chat-area">
           <div className="chat-header">
             {selectedFreelancer ? (
-              <div className="freelancer-info">
+              <div className="freelancer-info" onClick={()=>navigate("/user-profile")}>
                 <img
                   className="avatar"
                   src={selectedFreelancer.profileImage}
                   alt=""
                 />
-                <div className="info">
-                  <h4>{selectedFreelancer.freelancer_name}</h4>
+                <div className="info" >
+                  <h4 >{selectedFreelancer.freelancer_name}</h4>
                   <span
                     className={
                       selectedFreelancer.onlineStatus ? "online" : "offline"

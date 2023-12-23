@@ -1,0 +1,91 @@
+@import "../../styles/style.scss";
+
+.personal-information {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 100px; // Adjust size as needed
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      box-shadow: 2px 2px 5px $lightblue1;
+    }
+    div {
+        display: flex;
+        align-items: center;
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        color: $lightblue1;
+        margin: 5px;
+      }
+      button {
+        margin-left: 10px;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        border-radius: 40px;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #e2e2e2;
+        background-color: transparent;
+        color: $lightblue1;
+
+        .svg {
+          color: $lightblue1;
+          font-weight: bold;
+          font-size: 18px;
+        }
+
+        &:hover {
+          background-color: #f2f7f2;
+        }
+      }
+    }
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      // Add label styling
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      outline: none;
+      // Add input field styling
+    }
+
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      height: 100px;
+      outline: none;
+    }
+  }
+  .save-button {
+    padding: 10px 15px;
+    background-color: $lightblue1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+}

@@ -1,0 +1,23 @@
+.language-proficiency {
+    .language-list {
+        list-style-type: none;
+        padding: 0;
+
+        .language-entry {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+
+            .language-name {
+                font-weight: bold;
+            }
+
+            .proficiency-level {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    // Additional styling and media queries as needed
+}

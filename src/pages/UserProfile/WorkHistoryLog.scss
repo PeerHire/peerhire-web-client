@@ -1,0 +1,26 @@
+.work-history-log {
+    .project-list {
+        .project-entry {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+
+            .project-title {
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .project-duration {
+                font-style: italic;
+                margin-bottom: 5px;
+            }
+
+            .project-description {
+                // Additional styling for description
+            }
+        }
+    }
+
+    // Additional styling and media queries as needed
+}

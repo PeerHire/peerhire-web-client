@@ -28,23 +28,21 @@ const CollegeDropdown = ({ data, selectedCollege, setSelectedCollege }) => {
         ))}
       </select>
 
-      {selectedState && (
-        <div>
-          <select
-            className="input-country-field"
-            id="college"
-            value={selectedCollege}
-            onChange={handleCollegeChange}
-          >
-            <option value="">Select College</option>
-            {data[selectedState].map((college, index) => (
-              <option key={index} value={college}>
-                {college}
-              </option>
-            ))}
-          </select>
-        </div>
-      )}
+      <div>
+        <select
+          className="input-country-field"
+          id="college"
+          value={selectedCollege}
+          onChange={handleCollegeChange}
+        >
+          <option value="">Select College</option>
+          {data[selectedState]?.map((college, index) => (
+            <option key={index} value={college}>
+              {college}
+            </option>
+          ))}
+        </select>
+      </div>
     </div>
   );
 };

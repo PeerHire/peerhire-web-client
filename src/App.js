@@ -15,6 +15,7 @@ import FreelancerSelection from "./pages/FreelancerSelection/FreelancerSelection
 import MessagingPage from "./pages/Messages/MessagingPage";
 import NotificationsPage from "./pages/Notifications/NotificationsPage";
 import MyProposalsPage from "./pages/MyProposal/MyProposalsPage";
+import UserProfile from "./pages/UserProfile/UserProfile";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path="/messages" element = {<MessagingPage/>} />
         <Route path="/notifications" element = {<NotificationsPage/>} />
         <Route path="/proposals" element = {<MyProposalsPage/>} />
+        <Route path="/user-profile" element = {<UserProfile/>} />
       </Routes>
     </Router>
   );

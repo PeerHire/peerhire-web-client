@@ -141,7 +141,7 @@ const ProjectPage = () => {
                   <img src={ProfileImage} alt="Student Profile" />
                 </div> */}
                 <div className="student-info">
-                  <h2>
+                  <h2 onClick={()=>navigate("/user-profile")}>
                     {projectDetails.student.name} (
                     {projectDetails.student.rollnumber})
                   </h2>

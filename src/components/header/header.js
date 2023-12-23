@@ -150,12 +150,12 @@ const Header = () => {
               </button>
               <ul className="dropdown-menu">
                 <li>
-                  <NavLink to="/find-work" className="dropdown-item">
+                  <NavLink to="/user-profile" className="dropdown-item">
                     <MdManageAccounts /> Profile
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/saved-jobs" className="dropdown-item">
+                  <NavLink to="/user-profile" className="dropdown-item">
                     <MdSettings /> Setting
                   </NavLink>
                 </li>

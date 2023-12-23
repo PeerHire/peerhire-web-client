@@ -1,0 +1,21 @@
+.certifications-achievements {
+    .certifications-list {
+        .certification-entry {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+
+            .cert-title {
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .cert-details {
+                font-style: italic;
+            }
+        }
+    }
+
+    // Additional styling and media queries as needed
+}
