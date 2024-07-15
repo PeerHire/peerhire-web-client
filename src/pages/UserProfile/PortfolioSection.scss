@@ -1,30 +1,200 @@
+@import "../../styles/style.scss";
+
 .portfolio-section {
-    .projects {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
+  padding: 20px;
+  font-family: "Arial, sans-serif";
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
-        .project-card {
-            width: calc(33.333% - 20px); // For a three-column layout
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            overflow: hidden;
+  .portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 
-            img {
-                width: 100%;
-                height: 200px;
-                object-fit: cover;
-            }
-
-            .project-info {
-                padding: 10px;
-
-                h3 {
-                    margin-top: 0;
-                }
-            }
-        }
+    h2 {
+      font-size: 2rem;
+      color: $darkblue;
+      font-weight: 600;
     }
 
-    // Media queries and additional styling as needed
+    .add-project-btn {
+      padding: 10px 20px;
+      background-color: $lightblue1;
+      color: #fff;
+      border: none;
+      font-weight: bold;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #14a5e9;
+      }
+    }
+  }
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    .project-card {
+      position: relative;
+      width: calc(33.333% - 20px);
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: translateY(-10px);
+      }
+
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .project-info {
+        padding: 20px;
+        text-align: center;
+
+        h3 {
+          font-size: 1.5rem;
+          color: #007bff;
+          margin: 10px 0;
+        }
+
+        p {
+          font-size: 1rem;
+          color: #555;
+          margin: 10px 0 20px;
+        }
+
+        .links {
+          display: flex;
+          justify-content: center;
+          gap: 15px;
+
+          a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+
+            &:hover {
+              color: #0056b3;
+            }
+          }
+        }
+      }
+
+      .project-card-actions {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        display: flex;
+        gap: 10px;
+
+        .edit-icon,
+        .delete-icon {
+          cursor: pointer;
+          font-size: 1.3rem;
+          color: grey;
+          transition: color 0.3s;
+
+          &:hover {
+            color: #0056b3;
+          }
+        }
+      }
+    }
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal-content {
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      width: 400px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      h3 {
+        margin-top: 0;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+      }
+
+      input,
+      textarea,
+      select {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-family: inherit;
+
+        &:focus {
+          border-color: #007bff;
+          outline: none;
+        }
+      }
+
+      input[type="file"] {
+        padding: 3px;
+      }
+
+      .modal-buttons {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          padding: 10px 20px;
+          border: none;
+          border-radius: 25px;
+          cursor: pointer;
+          font-size: 1rem;
+          transition: background-color 0.3s;
+
+          &:first-of-type {
+            background-color: #007bff;
+            color: #fff;
+
+            &:hover {
+              background-color: #0056b3;
+            }
+          }
+
+          &:last-of-type {
+            background-color: #6c757d;
+            color: #fff;
+
+            &:hover {
+              background-color: #5a6268;
+            }
+          }
+        }
+      }
+    }
+  }
 }

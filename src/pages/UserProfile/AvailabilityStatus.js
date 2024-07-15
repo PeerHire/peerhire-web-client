@@ -11,11 +11,15 @@ function AvailabilityStatus() {
     return (
         <div className="availability-status">
             <h2>Availability Status</h2>
-            <label className="switch">
-                <input type="checkbox" checked={isAvailable} onChange={toggleAvailability} />
-                <span className="slider"></span>
-            </label>
-            <span className="status-text">{isAvailable ? 'Available' : 'Not Available'}</span>
+            <div className="status-control">
+                <label className="switch">
+                    <input type="checkbox" checked={isAvailable} onChange={toggleAvailability} />
+                    <span className="slider"></span>
+                </label>
+                <span className={`status-text ${isAvailable ? 'available' : 'not-available'}`}>
+                    {isAvailable ? 'Available' : 'Not Available'}
+                </span>
+            </div>
         </div>
     );
 }

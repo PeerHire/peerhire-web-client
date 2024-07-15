@@ -3,7 +3,9 @@ import './WorkHistoryLog.scss';
 
 function WorkHistoryLog() {
     const [projects, setProjects] = useState([
-        { id: 1, title: 'Project 1', duration: 'Jan 2020 - Dec 2020', description: 'Description 1' },
+        { id: 1, title: 'E-commerce Website', duration: 'Jan 2020 - Dec 2020', description: 'Developed a full-featured e-commerce website using React and Node.js, integrating secure payment gateways and a user-friendly interface.' },
+        { id: 2, title: 'Social Media App', duration: 'Feb 2021 - Nov 2021', description: 'Built a social media application with real-time chat, notifications, and a dynamic news feed using MERN stack.' },
+        { id: 3, title: 'Portfolio Website', duration: 'Mar 2022 - Present', description: 'Created a personal portfolio website showcasing my projects and blogs, utilizing modern web technologies like React and CSS Grid.' },
         // ... other projects
     ]);
 

@@ -154,11 +154,7 @@ const Header = () => {
                     <MdManageAccounts /> Profile
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink to="/user-profile" className="dropdown-item">
-                    <MdSettings /> Setting
-                  </NavLink>
-                </li>
+    
                 <li>
                   <button
                     className="dropdown-item"

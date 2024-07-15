@@ -1,26 +1,82 @@
+@import "../../styles/style.scss";
+
 .work-history-log {
+    padding: 20px;
+    font-family: "Arial, sans-serif";
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        font-size: 2rem;
+        color: $darkblue;
+        margin-bottom: 20px;
+        text-align: left;
+        font-weight: 600;
+    }
+
     .project-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
         .project-entry {
-            margin-bottom: 15px;
-            padding: 10px;
-            border: 1px solid #ccc;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
             border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
 
             .project-title {
+                font-size: 1.5rem;
                 font-weight: bold;
+                color: #333;
                 margin-bottom: 5px;
             }
 
             .project-duration {
+                font-size: 1rem;
                 font-style: italic;
-                margin-bottom: 5px;
+                color: #666;
+                margin-bottom: 10px;
             }
 
             .project-description {
-                // Additional styling for description
+                font-size: 1rem;
+                color: #555;
+                line-height: 1.5;
             }
         }
     }
+}
 
-    // Additional styling and media queries as needed
+// Media queries for responsive design
+@media (max-width: 768px) {
+    .work-history-log {
+        padding: 15px;
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        .project-list {
+            .project-entry {
+                padding: 15px;
+
+                .project-title {
+                    font-size: 1.2rem;
+                }
+
+                .project-duration,
+                .project-description {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
 }
