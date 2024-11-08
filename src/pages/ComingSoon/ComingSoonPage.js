@@ -7,7 +7,7 @@ import sumitnirmal from "..//..//assets/image/sumit.jpeg";
 import pubali from "..//..//assets/image/pubali.jpeg";
 import logoicon from "..//..//assets/image/logoicon2.png";
 import peerhirename from "..//..//assets/image/peerhirename2.png";
-import { FaFacebook, FaTwitter, FaInstagram,FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const ComingSoonPage = () => {
   return (
@@ -96,24 +96,30 @@ const ComingSoonPage = () => {
             <h3>Sumit Nirmal</h3>
             <p>Co-founder</p>
             <p>
-            Sumit Nirmal is a college student from IIT Kharagpur pursuing a B.Tech in Civil Engineering.
-            With his passion for technology and expertise in full stack development, Sumit is the driving force behind
-            the technical aspects of our product. He brings innovative ideas and ensures a seamless user experience
-            on our platform.
+              Sumit Nirmal is a college student from IIT Kharagpur pursuing a
+              B.Tech in Civil Engineering. With his passion for technology and
+              expertise in full stack development, Sumit is the driving force
+              behind the technical aspects of our product. He brings innovative
+              ideas and ensures a seamless user experience on our platform.
             </p>
           </div>
           <img src={sumitnirmal} alt="Founder 1" />
         </div>
 
         <div className="founder-card">
-          <img src={pubali} alt="Founder 2" />
+          <img src={swati} alt="Founder 2" />
           <div className="founder-info align-right">
-            <h3>Pubali Pal</h3>
+            <h3>Swati Singh</h3>
             <p>Co-founder</p>
             <p>
-            Pubali Pal is an accomplished college student from IIT Kharagpur pursuing an M.Tech in Physics.
-            She excels in handling various non-technical aspects of our venture. With her strong organizational skills
-            and attention to detail, Pubali ensures smooth operations and effective management in areas beyond technology.
+              Swati Singh is a committed college student from NMIT Bengaluru,
+              currently pursuing her BE in Electrical and Electronics
+              Engineering. She brings a unique perspective and problem-solving
+              expertise to our venture, excelling in both technical and
+              operational areas. With her strong analytical skills and
+              adaptability, Swati ensures efficient management and seamless
+              coordination across various responsibilities, making her an
+              invaluable asset to the success and growth of our project.
             </p>
           </div>
         </div>
