@@ -3,7 +3,6 @@ import "./AboutUs.scss";
 import connect from "..//..//assets/image/connect.png";
 import mission from "..//..//assets/image/mission.png";
 import sumitnirmal from "..//..//assets/image/sumit.jpeg";
-import pubali from "..//..//assets/image/pubali.jpeg";
 import swati from "..//..//assets/image/swati_profile.jpeg"
 import logoicon from "..//..//assets/image/logoicon2.png";
 import peerhirename from "..//..//assets/image/peerhirename2.png";
