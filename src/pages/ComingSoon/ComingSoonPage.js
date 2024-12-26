@@ -51,7 +51,7 @@ const ComingSoonPage = () => {
               <FaFacebook />
             </a>
             <a
-              href="https://www.instagram.com/peer_hire/"
+              href="https://www.instagram.com/peerhire_official/"
               target="_blank"
               rel="noopener noreferrer"
             >
