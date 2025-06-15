@@ -66,24 +66,6 @@ const AboutUs = () => {
           </div>
           <img src={sumitnirmal} alt="Founder 1" />
         </div>
-
-        <div className="founder-card">
-          <img src={swati} alt="Founder 2" />
-          <div className="founder-info align-right">
-            <h3>Swati Singh</h3>
-            <p>Co-founder</p>
-            <p>
-              Swati Singh is a committed college student from NMIT Bengaluru,
-              currently pursuing her BE in Electrical and Electronics
-              Engineering. She brings a unique perspective and problem-solving
-              expertise to our venture, excelling in both technical and
-              operational areas. With her strong analytical skills and
-              adaptability, Swati ensures efficient management and seamless
-              coordination across various responsibilities, making her an
-              invaluable asset to the success and growth of our project.
-            </p>
-          </div>
-        </div>
       </section>
 
       {/* Add more sections, such as achievements, testimonials, contact information, etc. */}
